@@ -15,6 +15,7 @@
               text-white
               focus:outline-none
             "
+            @click="emit('create-account')"
           >
             Criar uma conta
           </button>
@@ -28,6 +29,7 @@
               text-brand-main
               focus:outline-none
             "
+            @click="emit('login')"
           >
             Entrar
           </button>
@@ -58,6 +60,7 @@
               text-brand-main
               focus:outline-none
             "
+            @click="emit('create-account')"
           >
             Criar uma conta grátis
           </button>
@@ -70,6 +73,12 @@
 <script>
 export default {
   name: "HomeHeader",
+
+  setup(_, { emit }) {
+    return {
+      emit,
+    };
+  },
 };
 </script>
 
