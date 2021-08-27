@@ -23,7 +23,7 @@
             overflow-hidden
             bg-white
             rounded-lg
-            animate_animated animate__fadeInDown animate__faster
+            animate__animated animate__fadeInDown animate__faster
           "
         >
           <div class="flex flex-col px-12 py-10 bg-white">
