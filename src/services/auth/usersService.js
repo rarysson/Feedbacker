@@ -6,4 +6,11 @@ export default (httClient) => ({
       data: response.data,
     };
   },
+  generateApiKey: async () => {
+    const response = await httClient.post("/users/me/apiKey");
+
+    return {
+      data: response.data,
+    };
+  },
 });
