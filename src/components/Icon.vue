@@ -5,6 +5,7 @@
 <script>
 import Loading from "./Icon/Loading.vue";
 import Copy from "./Icon/Copy.vue";
+import ChevronDown from "./Icon/ChevronDown.vue";
 
 export default {
   name: "Icon",
@@ -12,6 +13,7 @@ export default {
   components: {
     Loading,
     Copy,
+    ChevronDown,
   },
 
   props: {
