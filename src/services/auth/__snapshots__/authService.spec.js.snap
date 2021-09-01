@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthService deveria retornar token ao logar com usuário 1`] = `
+Object {
+  "data": Object {
+    "token": "123456789",
+  },
+  "errors": null,
+}
+`;
+
+exports[`AuthService deveria retornar um usuário ao usuário se cadastrar 1`] = `
+Object {
+  "data": Object {
+    "email": "test@test.com",
+    "name": "test",
+    "password": "test",
+  },
+  "errors": null,
+}
+`;

@@ -46,6 +46,7 @@
             cursor-pointer
             focus:outline-none
           "
+          data-test="logout-btn"
           @click="handleLogout"
         >
           {{ logoutLabel }}

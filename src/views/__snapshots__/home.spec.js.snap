@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home deveria conseguir renderizar Home corretamente 1`] = `
+<home-header-stub></home-header-stub>
+<contact-stub></contact-stub>
+<home-footer-stub></home-footer-stub>
+<modal-factory-stub></modal-factory-stub>
+`;

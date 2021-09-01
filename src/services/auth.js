@@ -40,7 +40,7 @@ httpCliente.interceptors.response.use(
 
     if (error.response.status === 401) {
       router.push({ name: "Home" });
-      window.localStorage.setItem("token", "");
+      window.localStorage.removeItem("token");
     }
 
     setGlobalLoading(false);

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader deveria renderizar header do app 1`] = `
+<div class="flex justify-between items-center w-4/5 max-w-6xl py-10">
+  <div class="w-28 lg:w-36"><img class="w-full" src="" alt="logo"></div>
+  <div class="flex">
+    <ul class="flex list-none">
+      <li class="
+            px-6
+            py-2
+            mr-2
+            font-bold
+            text-white
+            rounded-full
+            cursor-pointer
+            focus:outline-none
+          "> Credenciais </li>
+      <li class="
+            px-6
+            py-2
+            mr-2
+            font-bold
+            text-white
+            rounded-full
+            cursor-pointer
+            focus:outline-none
+          "> Feedbacks </li>
+      <li class="
+            px-6
+            py-2
+            font-bold
+            bg-white
+            rounded-full
+            text-brand-main
+            cursor-pointer
+            focus:outline-none
+          " data-test="logout-btn">...</li>
+    </ul>
+  </div>
+</div>
+`;
