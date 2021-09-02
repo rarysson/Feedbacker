@@ -15,6 +15,7 @@
               text-white
               focus:outline-none
             "
+            data-test="create-account-header-btn"
             @click="emit('create-account')"
           >
             Criar uma conta
@@ -29,6 +30,7 @@
               text-brand-main
               focus:outline-none
             "
+            data-test="login-btn"
             @click="emit('login')"
           >
             Entrar
@@ -60,6 +62,7 @@
               text-brand-main
               focus:outline-none
             "
+            data-test="create-account-central-btn"
             @click="emit('create-account')"
           >
             Criar uma conta grátis

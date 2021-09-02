@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between">
+  <div class="flex justify-between" data-test="modal-login">
     <h1 class="text-4xl font-black text-gray-800">Entre na sua conta</h1>
     <button class="text-4xl text-gray-600 focus:outline-none" @click="close">
       &#10761;
@@ -25,11 +25,13 @@
           "
           :class="{ 'border-brand-danger': !!state.email.erroMessage }"
           placeholder="email@email.com"
+          data-test="email-input"
           v-model="state.email.value"
         />
         <span
           v-if="!!state.email.erroMessage"
           class="block font medium text-brand-danger"
+          data-test="email-error"
         >
           {{ state.email.erroMessage }}
         </span>
@@ -51,6 +53,7 @@
           "
           :class="{ 'border-brand-danger': !!state.password.erroMessage }"
           placeholder="*****"
+          data-test="password-input"
           v-model="state.password.value"
         />
         <span
@@ -77,6 +80,7 @@
         :class="{ 'opacity-50': state.isLoading }"
         :disabled="state.isLoading"
         type="submit"
+        data-test="submit-btn"
       >
         <icon v-if="state.isLoading" name="loading" class="animate-spin" />
         <span v-else>Entrar</span>
